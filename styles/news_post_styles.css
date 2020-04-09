@@ -324,10 +324,10 @@ section
 }
 .logo span
 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
-	font-weight: 900;
-	color: #3a3a3a;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #051452;
 	vertical-align: middle;
 	text-transform: uppercase;
 	margin-left: 3px;
@@ -358,7 +358,7 @@ section
 }
 .main_nav_item a
 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Times New Roman", Times, serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 700;
