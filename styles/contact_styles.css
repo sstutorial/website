@@ -98,6 +98,7 @@ a, a:hover, a:visited, a:active, a:link
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	color: inherit;
 }
 p a:active
 {
@@ -879,7 +880,7 @@ section
 {
 	width: 100%;
 	/* padding-top: 86px; */
-	background: #1a1a1a;
+	background: #414141;
 }
 .footer .section_title h1
 {
@@ -935,8 +936,8 @@ section
 
 .footer_content 
 {
-	padding-top: 80px;
-	padding-bottom: 83px;
+	padding-top: 50px;
+    padding-bottom: 30px;
 	border-bottom: solid 2px #4d4e4e;
 }
 .footer_content .logo_container
@@ -945,7 +946,7 @@ section
 }
 .footer_content .logo span
 {
-	color: #FFFFFF;
+	color: #051452;
 }
 .footer_about_text
 {
@@ -957,8 +958,17 @@ section
 {
 	font-size: 18px;
 	font-weight: 500;
-	color: #FFFFFF;
+	color: #ffb606;
 	padding-top: 15px;
+}
+
+.footer_column_title::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    background: #f1c40f;
+    bottom: -10px;
 }
 .footer_column_content
 {
@@ -987,7 +997,7 @@ section
 	font-size: 14px;
 	font-weight: 400;
 	color: #a5a5a5;
-	margin-bottom: 22px;
+	margin-bottom: 12px;
 }
 .footer_contact_item:last-child
 {
