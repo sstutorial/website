@@ -1535,6 +1535,13 @@ input:last-of-type
 	margin-right: 0px;
 }
 
+	.footer-container {
+    	width: 100%;
+    	padding-left: 50px;
+		padding-right: 50px;
+	}
+
+
 .banner-logo {
 	top: 40%;
 	position: absolute;
