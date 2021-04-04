@@ -1619,5 +1619,19 @@ input:last-of-type
   .timeline .entry:nth-child(even):before {
 	right: calc(100% + 40px);
   }
+
+  .troopers li{
+	display: inline;
+  }
+
+  .troopers img{
+	border-radius: 50%;
+	margin: 10px;
+  }
+
+  .troopers button{
+	border: none;
+    background-color: white;
+  }
   
 /* end */
