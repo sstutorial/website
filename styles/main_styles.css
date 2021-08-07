@@ -1621,6 +1621,10 @@ input:last-of-type
 	right: calc(100% + 40px);
   }
 
+  .troopers {
+	  text-align: center;
+  }
+
   .troopers li{
 	display: inline;
   }
