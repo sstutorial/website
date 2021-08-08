@@ -169,7 +169,7 @@ $(document).ready(function()
 			{
 				items:2,
 				loop:true,
-				smartSpeed:600,
+				smartSpeed:900,
 				autoplay:true,
 				nav:false,
 				dots:false
