@@ -1158,14 +1158,22 @@ input:last-of-type
 {
 	outline: solid 2px #FFFFFF;
 }
-
+/*********************************
+1?. gallery
+*********************************/
+.gallery
+{
+	margin-top: 76px;
+	margin-bottom: 76px;
+}
 /*********************************
 12. Services
 *********************************/
 
-.services
+.sst-services
 {
-	padding-bottom: 76px;
+	padding-top: 76px;
+	padding-bottom: 0px;
 }
 .services_row
 {
@@ -1313,7 +1321,10 @@ input:last-of-type
 /*********************************
 14. Events
 *********************************/
-
+.events {
+	padding-top: 76px;
+	padding-bottom: 76px;
+}
 .event_items
 {
 	margin-top: 68px;
@@ -1378,6 +1389,13 @@ input:last-of-type
 .event_image img
 {
 	width: 100%;
+}
+
+/*********************************
+15. Timeline
+*********************************/
+.timeline {
+	padding-top: 0px;
 }
 
 /*********************************
