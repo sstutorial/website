@@ -331,6 +331,20 @@ $(document).ready(function()
 				smartSpeed:1000
 			});
 		}
+		if($('.notes_slider').length)
+		{
+			var owl1 = $('.notes_slider');
+
+			owl1.owlCarousel(
+			{
+				items:1,
+				loop:true,
+				nav:false,
+				autoplay:true,
+				autoplayTimeout:5000,
+				smartSpeed:1000
+			});
+		}
 	}
 
 	/* 

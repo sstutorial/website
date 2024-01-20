@@ -1390,6 +1390,9 @@ input:last-of-type
 {
 	width: 100%;
 }
+.notes_slider_container {
+	padding-top: 30px;
+}
 
 /*********************************
 15. Timeline
